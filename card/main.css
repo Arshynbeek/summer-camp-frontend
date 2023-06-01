@@ -1,0 +1,87 @@
+body {
+    background: rgb(252,176,69);
+    background: linear-gradient(125deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 85%);
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    background-color: #FFF;
+    width: 800px;
+    height: 370px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: -5%;
+    background: rgb(252,176,69);
+    background: linear-gradient(158deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 61%);
+}
+
+.details {
+    margin: 10%;
+    padding: 0 0 0 30%;
+}
+
+.details > * {
+    margin: 15px;
+}
+
+.components {
+    position: absolute;
+    right: 0;
+    margin: 2%;
+}
+
+.round {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(180, 180, 180);
+}
+
+.oval {
+    width: 10px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #fd1d1d;
+    margin: 10px 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 160px;
+    height: 40px;
+    background: rgb(252,176,69);
+    background: linear-gradient(121deg, rgba(252,176,69,1) 10%, rgba(253,29,29,1) 63%);
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+h3, p {
+    color: rgb(110, 110, 110);
+}
+
+h3, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
